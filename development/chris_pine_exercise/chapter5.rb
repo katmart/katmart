@@ -15,10 +15,15 @@
 #puts ' a'.capitalize
 #puts letters
 
-line_width = 50
-puts (        "Kit Kat Attack".center(line_width))
-puts (         "Ate her tic tac".center(line_width))
-puts (         "It was spearment, and nor orange".center(line_width))
-puts (          "When along came a pitbull".center(line_width))
-puts (           "Who sat on the begging carpet".center(line_width))
-puts (          "Sad that tic tacs have no meatz".center(line_width))
+
+#Centering text within Ruby
+#line_width = 50
+#puts (        "Kit Kat Attack".center(line_width))
+#puts (         "Ate her tic tac".center(line_width))
+#puts (         "It was spearment, and nor orange".center(line_width))
+#puts (          "When along came a pitbull".center(line_width))
+#puts (           "Who sat on the begging carpet".center(line_width))
+#puts (          "Sad that tic tacs have no meatz".center(line_width))
+
+
+
