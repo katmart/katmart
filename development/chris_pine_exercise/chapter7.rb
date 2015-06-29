@@ -114,9 +114,12 @@
     #end
 #end
 
-while true
 puts = 'How many bottles of beer are on the wall?'
-	number_bottles = gets.to_i
+		number_bottles = gets.to_i
+
+if number_bottles >= 100
+	puts "That is too many bottles"
+else 
 	bottles_decrease = number_bottles - 1
 	beer = 'bottles of beer'
 	wall = 'on the wall'
@@ -124,9 +127,12 @@ puts = 'How many bottles of beer are on the wall?'
 	puts number_bottles.to_s + ' ' + beer + ' ' + wall
 	puts number_bottles.to_s + ' ' + beer
 	puts 'Take one down, pass it around'
-	puts number_bottles.to_s + ' ' + beer + ' ' + wall
+	
+	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
 
-		break 
+	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
+	puts bottles_decrease.to_s + ' ' + beer
+	puts 'Take one down, pass it around'
+	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
+ 
 end
-
-puts 'I am feeling tipsy, no more beer for me.'
