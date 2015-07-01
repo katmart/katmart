@@ -114,25 +114,30 @@
     #end
 #end
 
-puts = 'How many bottles of beer are on the wall?'
-		number_bottles = gets.to_i
+#puts = 'How many bottles of beer are on the wall?'
+	#bottles = gets.to_i
 
-if number_bottles >= 100
-	puts "That is too many bottles"
-else 
-	bottles_decrease = number_bottles - 1
-	beer = 'bottles of beer'
-	wall = 'on the wall'
-
-	puts number_bottles.to_s + ' ' + beer + ' ' + wall
-	puts number_bottles.to_s + ' ' + beer
-	puts 'Take one down, pass it around'
+#if bottles >= 100
+	#puts "That is too many bottles"
+#elsif 
+	#bottles <= 99
+	#puts bottles.to_s + 'beer on the wall'
+	#puts bottles.to_s + 'bottles of beer'
+	#puts 'Take one down, pass it around'
 	
-	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
+#	puts (bottles - 1).to_s + ' bottles of beer on the wall'
 
-	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
-	puts bottles_decrease.to_s + ' ' + beer
-	puts 'Take one down, pass it around'
-	puts bottles_decrease.to_s + ' ' + beer + ' ' + wall
+	#puts bottles.to_s + ' bottles of beer on the wall' + bottles.to_s + ' bottles of beer'
+	#puts ' Take one down, pass it around' + bottles.to_s + ' beer on the wall'
  
+#end
+while true
+puts "What is your favorite year"
+question = gets.chomp
+number = random
+number.rand(1984...1998)
+	puts "hu!?!? UM, YA! I CAN'T HEAR YOU! THE MUSIC'S TOO LOUD!"
+	if question == 'bye'
+		break
+	end
 end
