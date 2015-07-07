@@ -131,13 +131,55 @@
 	#puts ' Take one down, pass it around' + bottles.to_s + ' beer on the wall'
  
 #end
-while true
-puts "What is your favorite year"
-question = gets.chomp
-number = random
-number.rand(1984...1998)
-	puts "hu!?!? UM, YA! I CAN'T HEAR YOU! THE MUSIC'S TOO LOUD!"
-	if question == 'bye'
-		break
-	end
+#while true
+#puts "What is your sign"
+##question = gets.chomp
+#number = random
+#number.rand(1984...1998)
+	#puts "hu!?!? UM, YA! I CAN'T HEAR YOU! THE MUSIC'S TOO LOUD!"
+	#if question == 'bye'
+#		break
+	#end
+#end
+
+#new_array = [4, 2, 99, 'silly cats', 'help!']
+
+#new_array.each do |item|
+#	puts item
+
+#new_array.each_with_index do |item, index|
+#	index + ". " + item
+
+#seasons = ['fall', 'spring', 'summer', 'winter', 'winter', 'summer']
+#sorted = seasons.uniq.sort
+#sorted.each_with_index do |item, index|
+#	puts (index.to_i + 1).to_s + ". " + item
+#end
+
+
+#Going down from 99-0
+#number = 100
+#	while true
+#	number = number-1
+#puts number
+#	if number < 1 
+#break
+#	end 
+#end 
+
+#for num in 1..100
+ #   puts num 
+#end
+
+i = 20
+loop do
+  i -= 1
+  print "#{i}"
+ break if i <= 0
 end
+
+#only even numbers
+#for i in 1..5
+ # next if i % 2 == 0
+  #print i
+#end
